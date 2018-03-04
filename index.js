@@ -59,4 +59,3 @@ console.log(makeInt('2.22', 10));
 function preserveDecimal(a) {
   parseFloat(a)
 }
-

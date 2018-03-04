@@ -50,11 +50,14 @@ function dec(a) {
   return a -+ 1
 }
 
+var x = 2.222
+
 function makeInt(x, base) {
-  parseInt(x, base);
+  parseInt(x, base)
 }
 
-x = '2.222'
+console.log(x)
+
 
 function preserveDecimal(a) {
   parseFloat(a)

@@ -51,12 +51,10 @@ function dec(a) {
 }
 
 
-function makeInt(x, base) {
-  parseInt(x, base)
+function makeInt(n) {
+  return parseInt(n, 10)
 }
 
-makeInt("2", 10)
-
-function preserveDecimal(a) {
-  parseFloat(a)
+function preserveDecimal(n) {
+  return parseFloat(n)
 }

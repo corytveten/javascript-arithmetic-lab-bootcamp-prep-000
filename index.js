@@ -54,8 +54,9 @@ function makeInt(x, base) {
   parseInt(x, base);
 }
 
-console.log(makeInt('2.22', 10));
+x = 2.222
 
 function preserveDecimal(a) {
   parseFloat(a)
 }
+

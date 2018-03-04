@@ -59,3 +59,5 @@ function preserveDecimal(a) {
 }
 
 makeInt("901")
+
+preserveDecimal("2.222")

@@ -59,4 +59,3 @@ function preserveDecimal(a) {
 }
 
 console.log(makeInt("2", 10))
-

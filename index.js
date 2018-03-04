@@ -52,10 +52,9 @@ function dec(a) {
 
 function makeInt(x, base) {
   parseInt(x, base);
-  x = "2.222"
 }
 
-
+x = '2.222'
 
 function preserveDecimal(a) {
   parseFloat(a)

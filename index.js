@@ -50,12 +50,13 @@ function dec(a) {
   return a -+ 1
 }
 
-function makeInt(a) {
-  parseInt(a, 10)
+function makeInt(x, base) {
+  parseInt(x, base);
 }
+
+console.log(makeInt('2.22', 10));
 
 function preserveDecimal(a) {
   parseFloat(a)
 }
 
-console.log(makeInt("2", 10))

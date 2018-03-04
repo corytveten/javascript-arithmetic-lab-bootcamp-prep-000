@@ -58,4 +58,4 @@ function preserveDecimal(a) {
   parseFloat(a)
 }
 
-makeInt("2.222")
+makeInt("901")

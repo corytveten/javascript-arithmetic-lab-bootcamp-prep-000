@@ -58,6 +58,5 @@ function preserveDecimal(a) {
   parseFloat(a)
 }
 
-makeInt("901")
+console.log(makeInt("2", 10))
 
-preserveDecimal("2.222")

@@ -49,3 +49,6 @@ function inc(a) {
 function dec(a) {
   return a -+ 1
 }
+
+function parseInt('2', 10)
+

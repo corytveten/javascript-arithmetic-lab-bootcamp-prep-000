@@ -51,4 +51,3 @@ function dec(a) {
 }
 
 function parseInt('2', 10)
-

@@ -50,6 +50,6 @@ function dec(a) {
   return a -+ 1
 }
 
-function makeInt(2) {
-  parseInt("2", 10)
+function makeInt(a) {
+  parseInt(a, 10)
 }
